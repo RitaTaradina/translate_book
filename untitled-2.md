@@ -64,7 +64,12 @@ $ ls -F
 
 что должно привести к следующему листингу:
 
-> rbx1/ rbx1\_bringup/ rbx1\_dynamixels/ rbx1\_nav/ rbx1\_vision/ rbx1\_apps/ rbx1\_description/ rbx1\_experimental/ rbx1\_speech/ README.md
+![](.gitbook/assets/snimok-ekrana-2020-05-31-v-13.26.56.png)
+
+```text
+rbx1/        rbx1_bringup/     rbx1_dynamixels/    rbx1_nav/    rbx1_vision/
+rbx1_apps/   rbx1_description/ rbx1_experimental/  rbx1_speech/ README.md
+```
 
 На протяжении всей книги мы будем использовать команду roscd для перехода от одного пакета к другому. Например, чтобы перейти в пакет rbx1\_speech, вы должны использовать команду:
 
